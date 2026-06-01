@@ -45,9 +45,7 @@ Thumbs.db
 
 # Build
 app/build/
-build/
-
-# Gradle
+android/app/build/
 .gradle/
 **/build/
 **/build.gradle
@@ -67,6 +65,7 @@ local.properties
 *.temp
 *.bak
 *.backup
+.cache/
 
 ---
 
