@@ -1,54 +1,53 @@
-# 📜 CHANGELOG - BioDev Hub
+# 📜 CHANGELOG — BioDev Hub
 
-> **Memória Temporal — Evolução Completa do Projeto**
-> *Todas as mudanças, adições e correções registradas para rastreabilidade total.*
-
----
-
-## 📅 Formato
-
-- **`[AAAA-MM-DD]`**: Data da mudança.
-- **`[Tipo]`**: `✅ Adicionado`, `🔧 Corrigido`, `🚀 Melhorado`, `⚠️ Removido`, `📝 Documentado`.
-- **`[Módulo]`**: Módulo ou área afetada (ex: `core`, `ai`, `github`, `ui`).
-- **`[Descrição]`**: Detalhes da mudança.
+> Memória temporal do projeto — tudo que evoluiu
 
 ---
 
-## 🌱 Fase 0 - Inicialização
+## [0.0.0] — 2026-06-01 — FASE 0 (INÍCIO)
 
-### [2026-06-01]
-- **✅ Adicionado** `[repo]`: Repositório **BioDev-Hub** criado no GitHub.
-- **✅ Adicionado** `[README.md]`: Cérebro do projeto (este arquivo) criado com estrutura completa.
-- **✅ Adicionado** `[LICENSE]`: Licença MIT aplicada.
-- **✅ Adicionado** `[.gitignore]`: Configurado para Node.js.
-- **✅ Adicionado** `[CHANGELOG.md]`: Este arquivo de memória temporal.
+### ✨ Adicionado
+
+- ✅ Planejamento completo do projeto
+- ✅ Estrutura de pastas definida
+- ✅ README.md como cérebro consciente
+- ✅ CHANGELOG.md como memória temporal
+- ✅ docs/ estrutura criada
+- ✅ Ferramentas confirmadas:
+  - GitHub (repositório + APK + cérebro)
+  - Bolt.new (design)
+  - Le Chat (código principal)
+  - Replit (aplicação direta)
+  - Perplexity (pesquisa)
+  - Copilot (autocomplete)
+
+### 📋 Definido
+
+- Método Biorelativológico integrado
+- 8 módulos do sistema
+- 8 IAs para integrar
+- Branches biorelativos
+- Estrutura completa de pastas
+- 3 fases de desenvolvimento
+
+### 🚨 Importante
+
+- README.md é o cérebro — NÃO QUEBRAR
+- GitHub guarda TUDO — contexto para não quebrar
+- Nenhuma solução é definitiva — só eficiente AGORA
 
 ---
 
-## 📌 Próximas Atualizações
+## [Próxima] — TBA
 
-- **🚀 Melhorado** `[core]`: Implementação do módulo **Observação/Fé** (`observation.js`).
-- **🚀 Melhorado** `[core]`: Implementação do módulo **Hipoterelação** (`hipoterelacao.js`).
-- **🚀 Melhorado** `[modules]`: Desenvolvimento do **Gestor de Problemas** (`gestor-problemas.js`).
-- **🚀 Melhorado** `[ai]`: Integração com **Perplexity API** (`perplexity.js`).
-- **🚀 Melhorado** `[github]`: Configuração de **GitHub Actions** para CI/CD.
+### 🔄 Em andamento
 
----
-
-## 🔍 Legenda
-
-| Emoji | Tipo          | Descrição                          |
-|-------|---------------|------------------------------------|
-| ✅    | Adicionado    | Novas funcionalidades ou arquivos. |
-| 🔧    | Corrigido     | Bugs ou erros resolvidos.          |
-| 🚀    | Melhorado     | Otimizações ou aprimoramentos.    |
-| ⚠️    | Removido      | Arquivos ou funcionalidades removidas. |
-| 📝    | Documentado   | Nova documentação ou atualizações. |
+- 🔄 Criar repositório no GitHub
+- 🔄 Implementar núcleo biorelativo (core/)
+- 🔄 Implementar Módulo 1 (Gestor de Problemas)
+- 🔄 Implementar design no Bolt.new
 
 ---
 
-## 📢 Notas
-
-- Este arquivo é **obrigatório** para rastrear todas as mudanças.
-- **Antes de qualquer commit**, atualize este arquivo.
-- Use o formato padronizado para facilitar a leitura e manutenção.
+**Nota:** Cada versão = certidão de óbito (quase-final, não definitiva)
+Próxima versão sempre evolui quando converge!
