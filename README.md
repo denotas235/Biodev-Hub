@@ -1,9 +1,9 @@
 # 🚀 BioDev Hub
 
 > **App de programador profissional com Biorelativologia**
-> 
+>
 > Sistema unificado: programação + ideias + GitHub + IAs + organização inteligente
-> 
+>
 > **Nenhuma solução é definitiva, só eficiente e adaptada à situação — sempre evolutiva!**
 
 ---
@@ -32,6 +32,8 @@ Este arquivo é o **cérebro consciente** do projeto. Aqui está guardado:
 7. [Como Usar](#como-usar)
 8. [Fase 0 — Status](#fase-0---status)
 9. [Próximos Passos](#próximos-passos)
+10. [Contribuição](#contribuição)
+11. [Licença](#licença)
 
 ---
 
@@ -52,7 +54,7 @@ BioDev Hub é um **aplicativo desktop/mobile** que ajuda programadores a:
 - Programadores profissionais
 - Desenvolvedores de mods (Minecraft, jogos)
 - Criadores de shaders e gráficos
-- Quem programar + cria + organiza
+- Quem programa + cria + organiza
 - Quem quer **evoluir sem quebrar**
 
 ---
@@ -87,16 +89,16 @@ Input → Processing → Analyzing → Output (ciclo contínuo)
 
 ## 🧩 Módulos do Sistema
 
-| Módulo | Função |
-|--------|--------|
-| **1. Gestor de Problemas** | Resolve problemas com método biorelativo |
-| **2. Gestor de Ideias** | Captura + desenvolve ideias criativas |
-| **3. IA Unificada** | Todas IAs em um lugar, roteamento automático |
-| **4. GitHub Integrado** | Versionamento inteligente + commits automáticos |
-| **5. Organização Inteligente** | Auto-organização enquanto trabalhas |
-| **6. Assistente de Código** | Código para mods, shaders, Java, Fabric |
-| **7. Diário Biorelativo** | Registro de tudo com método |
-| **8. Sistema de Equilíbrio** | Monitora ponto nulo (-1+1=0) |
+| Módulo | Função | Status |
+|--------|--------|--------|
+| **1. Gestor de Problemas** | Resolve problemas com método biorelativo | ☐ Pendente |
+| **2. Gestor de Ideias** | Captura + desenvolve ideias criativas | ☐ Pendente |
+| **3. IA Unificada** | Todas IAs em um lugar, roteamento automático | ☐ Pendente |
+| **4. GitHub Integrado** | Versionamento inteligente + commits automáticos | ☐ Pendente |
+| **5. Organização Inteligente** | Auto-organização enquanto trabalhas | ☐ Pendente |
+| **6. Assistente de Código** | Código para mods, shaders, Java, Fabric | ☐ Pendente |
+| **7. Diário Biorelativo** | Registro de tudo com método | ☐ Pendente |
+| **8. Sistema de Equilíbrio** | Monitora ponto nulo (-1+1=0) | ☐ Pendente |
 
 ---
 
@@ -104,11 +106,11 @@ Input → Processing → Analyzing → Output (ciclo contínuo)
 
 | IA | Uso | Status |
 |----|-----|--------|
-| **Perplexity** | Pesquisa web, docs, fatos | ✓ Ativa |
-| **GitHub Copilot** | Autocomplete de código | ✓ Ativa |
-| **Le Chat** | Código principal | ✓ Ativa |
+| **Perplexity** | Pesquisa web, docs, fatos | ✅ Ativa |
+| **GitHub Copilot** | Autocomplete de código | ✅ Ativa |
+| **Le Chat** | Código principal | ✅ Ativa |
 | **Claude** | Explicações, brainstorm | ☐ Pendente |
-| **ChatGPT** | альтернативa Claude | ☐ Pendente |
+| **ChatGPT** | Альтернатива Claude | ☐ Pendente |
 | **Codeium** | Alternativa Copilot | ☐ Pendente |
 | **IA de Áudio** | Efeitos sonoros, música | ☐ Pendente |
 | **IA de Shader** | Otimização GLSL/Vulkan | ☐ Pendente |
@@ -130,12 +132,10 @@ Input → Processing → Analyzing → Output (ciclo contínuo)
 
 ### Branches Biorelativos:
 
-```
-main                    → certidão de óbito (quase-final)
-explore-hipoteafirmação → hipótese afirmativa
-explore-hiponegacao     → hipótese negativa
-balance-ponto-nulo      → busca de equilíbrio
-```
+- `main` → certidão de óbito (quase-final)
+- `explore-hipoteafirmação` → hipótese afirmativa
+- `explore-hiponegacao` → hipótese negativa
+- `balance-ponto-nulo` → busca de equilíbrio
 
 ---
 
@@ -145,73 +145,210 @@ balance-ponto-nulo      → busca de equilíbrio
 BioDev-Hub/
 ├── README.md              → CÉREBRO (este arquivo)
 ├── CHANGELOG.md           → Memória temporal
+├── LICENSE                → Licença do projeto
+├── .gitignore             → Ignora arquivos desnecessários
 ├── docs/                  → Memória detalhada
+│   ├── manifesto.md       → Biorelativologia explicada
+│   ├── arquitetura.md     → Como o sistema funciona
+│   ├── metodo-biorelativo.md → Passo a passo do método
+│   ├── habilidades.md     → Todas habilidades listadas
+│   ├── APIs-integradas.md → Todas IAs e como usar
+│   └── guia-rapido.md     → Como usar o app
+│
 ├── src/                   → Código principal
-│   ├── core/              → Núcleo biorelativo
+│   ├── core/              → Núcleo biorelativológico
+│   │   ├── observation.js → Módulo de observação/fé
+│   │   ├── hipoterelacao.js → Módulo de hipóteses
+│   │   ├── analise-1.js   → 1ª analítica/preditação
+│   │   ├── analise-2.js   → 2ª analítica/exame
+│   │   ├── ponto-nulo.js  → Equilíbrio (-1+1=0)
+│   │   └── cadeia-denorium.js → Problemas em cadeia
+│   │
 │   ├── modules/           → Módulos do app
-│   ├── ai/                → Integrações IA
+│   │   ├── gestor-problemas.js → Módulo 1: Problemas
+│   │   ├── gestor-ideias.js → Módulo 2: Ideias
+│   │   ├── ai-unificada.js → Módulo 3: IAs
+│   │   ├── github-integrado.js → Módulo 4: GitHub
+│   │   ├── organizacao-inteligente.js → Módulo 5: Organização
+│   │   ├── assistente-codigo.js → Módulo 6: Código
+│   │   ├── diario-biorelativo.js → Módulo 7: Diário
+│   │   └── equilibrio.js → Módulo 8: Ponto Nulo
+│   │
+│   ├── ai/                → Integrações com IAs
+│   │   ├── perplexity.js  → Perplexity API
+│   │   ├── copilot.js     → GitHub Copilot
+│   │   ├── lechat.js      → Le Chat
+│   │   ├── claude.js      → Anthropic Claude
+│   │   ├── chatgpt.js     → OpenAI ChatGPT
+│   │   ├── codeium.js     → Codeium
+│   │   ├── audio-ai.js    → IA de áudio
+│   │   └── shader-ai.js   → IA de shader
+│   │
 │   ├── github/            → Integração GitHub
-│   └── ui/                → Interface (Bolt)
+│   │   ├── commits-inteligentes.js → Commits automáticos
+│   │   ├── branches-biorelativos.js → Branches do método
+│   │   ├── pr-inteligente.js → PR inteligente
+│   │   └── issues-auto.js → Issues automáticas
+│   │
+│   └── ui/                → Interface (design do Bolt)
+│       ├── dashboard.js   → Dashboard principal
+│       ├── painel-problema.js → Painel de problemas
+│       ├── painel-ideias.js → Painel de ideias
+│       ├── painel-ai.js   → Painel de IAs
+│       └── painel-equilibrio.js → Painel de equilíbrio
+│
 ├── design/                → Design do Bolt.new
+│   ├── mockups/           → Mockups visuais
+│   ├── theme/             → Tema (cores, fontes)
+│   └── assets/            → Ícones, imagens
+│
 ├── android/               → Para APK
+│   ├── app/               → Código Android
+│   └── build.gradle       → Configuração build
+│
 ├── tests/                 → Testes automatizados
-└── .github/               → GitHub Actions
+│   ├── unit/              → Testes unitários
+│   ├── integration/       → Testes de integração
+│   └── e2e/               → Testes end-to-end
+│
+├── scripts/               → Scripts auxiliares
+│   ├── setup.sh           → Setup inicial
+│   ├── deploy.sh          → Deploy automático
+│   └── backup.sh          → Backup automático
+│
+├── .github/               → Configurações GitHub
+│   ├── workflows/         → GitHub Actions
+│   │   ├── ci.yml         → CI/CD
+│   │   └── deploy.yml     → Deploy automático
+│   ├── ISSUE_TEMPLATE/    → Templates de issues
+│   └── PULL_REQUEST_TEMPLATE.md → Template de PR
+│
+└── output/                → Outputs gerados
+    ├── relatorios/        → Relatórios gerados
+    ├── builds/            → Builds do APK
+    └── docs-generated/    → Docs geradas automaticamente
 ```
 
 ---
 
 ## 🛠 Como Usar
 
-### Pré-requisitos
-- Node.js (v18+)
-- Git
-- Conta no GitHub
-- API Keys das IAs (opcional)
-
-### Instalação
-1. Clone o repositório:
+1. **Clonar o repositório:**
    ```bash
    git clone https://github.com/denotas235/Biodev-Hub.git
    cd Biodev-Hub
    ```
-2. Instale as dependências:
+
+2. **Instalar dependências (Node):**
    ```bash
    npm install
    ```
-3. Configure as APIs no arquivo `.env`:
-   ```env
-   PERPLEXITY_API_KEY=your_key
-   GITHUB_TOKEN=your_token
+
+3. **Executar o app:**
+   ```bash
+   npm start
    ```
 
-### Execução
-```bash
-npm start
-```
+4. **Contribuir:**
+   - Fork o projeto
+   - Cria branch: `explore-hipoteafirmação-TUA-IDÉIA`
+   - Commit changes
+   - Push para branch
+   - Cria Pull Request
 
 ---
 
 ## 📊 Fase 0 — Status
 
-- ✅ Repositório criado
+### ✅ Concluído:
+- ✅ Planejamento completo
 - ✅ Estrutura de pastas definida
-- ✅ README.md (Cérebro) criado
-- ⏳ Módulos em desenvolvimento
-- ⏳ Integração com IAs
-- ⏳ GitHub Actions configurado
+- ✅ README.md como cérebro (este arquivo)
+- ✅ CHANGELOG.md como memória temporal
+- ✅ Ferramentas confirmadas:
+  - GitHub (repositório + APK + cérebro)
+  - Bolt.new (design)
+  - Le Chat (código principal)
+  - Replit (aplicação direta)
+
+### 🔄 Em andamento (FAZER AGORA):
+- 🔄 Criar repositório no GitHub
+- 🔄 Criar estrutura de pastas
+- 🔄 Escrever README.md completo
+- 🔄 Criar CHANGELOG.md
+- 🔄 Criar docs/ principais
+- 🔄 Configurar .gitignore
+- 🔄 Bolt.new — primeiro mockup de design
+
+### ☐ Pendente (Fase 1):
+- ☐ Implementar núcleo biorelativo (core/)
+- ☐ Implementar Módulo 1 (Gestor de Problemas)
+- ☐ Integrar Perplexity API
+- ☐ Integrar Le Chat
+- ☐ Configurar GitHub Actions
 
 ---
 
-## 🚀 Próximos Passos
+## 🎯 Próximos Passos
 
-- [ ] Implementar módulo **Gestor de Problemas**
-- [ ] Implementar módulo **Gestor de Ideias**
-- [ ] Integrar **Perplexity** e **GitHub Copilot**
-- [ ] Criar **GitHub Actions** para CI/CD
-- [ ] Desenvolver **UI/UX** no Bolt.new
+### Fase 1 (próximas 2 semanas):
+- ✅ Criar repositório no GitHub
+- ☐ Implementar núcleo biorelativo (core/)
+- ☐ Implementar Módulo 1 (Gestor de Problemas)
+- ☐ Integrar Perplexity API
+- ☐ Bolt.new — design completo da UI
+
+### Fase 2 (próximas 4 semanas):
+- ☐ Implementar Módulos 2-8
+- ☐ Integrar todas IAs
+- ☐ Implementar GitHub inteligente
+- ☐ Implementar organização automática
+- ☐ Testes automatizados
+
+### Fase 3 (próximas 8 semanas):
+- ☐ Build APK Android
+- ☐ Testes completos
+- ☐ Publicação (Google Play / GitHub Releases)
+- ☐ Documentação final
+
+---
+
+## 📞 Contribuição
+
+### Como contribuir:
+1. Fork o projeto
+2. Cria branch: `explore-hipoteafirmação-TUA-IDÉIA`
+3. Commit changes
+4. Push para branch
+5. Cria Pull Request
+
+### Regras:
+- ✅ Sempre faz 2ª análise antes de PR
+- ✅ Documenta tudo em `docs/`
+- ✅ Testes obrigatórios
+- ✅ Contexto no commit message
 
 ---
 
 ## 📜 Licença
 
-Este projeto está licenciado sob a **MIT License** — veja o arquivo [LICENSE](LICENSE) para detalhes.
+**MIT License** — usa, modifica, compartilha!
+
+---
+
+## 🚨 IMPORTANTE — NÃO QUEBRAR
+
+Antes de atualizar/modificar:
+- ✅ LER este README
+- ✅ LER `docs/arquitetura.md`
+- ✅ Verificar CHANGELOG.md
+- ✅ Fazer backup (branch separada)
+- ✅ Testar antes de merge
+
+**Se não seguires isto: PODEMOS QUEBRAR o que já foi construído.**
+
+---
+
+**Feito com 🧠 Biorelativologia + 💻 Código + 🎨 Criatividade + 🤖 IAs**
+
+*Nenhuma solução é definitiva — só eficiente AGORA e evolutiva sempre!*
